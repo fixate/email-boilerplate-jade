@@ -7,7 +7,7 @@ gulp.task 'browser-sync', () ->
     server:
       baseDir: "./#{conf.path.dist}"
     open: true
-    notify: false
+    notify: true
     # tunnel: true
   }
 
