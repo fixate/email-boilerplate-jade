@@ -1,2 +1,20 @@
-# email-boilerplate-jade
-A jade and gulp setup for designing emails based on the email boilerplate at https://github.com/seanpowell/Email-Boilerplate
+# Email Boilerplate + Jade + Gulp + BrowserSync
+An email boilerplate for working with Jade, Gulp, and BrowserSync.
+
+## Setup
+
+```bash
+$ npm install
+```
+
+## Dev
+
+```bash
+gulp
+```
+
+## Build
+
+```bash
+gulp build
+```

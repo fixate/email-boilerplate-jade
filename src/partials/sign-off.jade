@@ -1,0 +1,49 @@
+| Sincerely,
+br
+| ___________________
+br
+br
+
++smallText()
+  table(style='color: #{colorBaseLt};')
+    tr
+      td
+        +image('http://lorempixel.com/50/50', 'alt', 50, 50)
+      td
+        +image('http://lorempixel.com/100/50', 'alt', 100, 50)
+
+    tr
+      td
+      td
+        +smallerText() Your freelance business, simplified
+        br
+    tr
+      td
+      td
+        strong
+          | The TeekTak Team
+    tr
+      td
+      td
+        +link('mailto:support@teektak.com') support@teektak.com
+    tr
+      td
+      td
+        +link('http://teektak.com') Teektak.com
+    tr
+      td
+      td
+        +link('http://twitter.com/teektakapp') @teektakapp
+        = ' '
+        | (follow us on Twitter)
+
+    tr(style='color: #{colorBase};')
+      td
+      td
+        br
+        em
+          | Made with <3 in Vancouver, Montreal, London, Johannesburg
+
+  br
+  strong
+    | * Note: This is an automatic generated email, please do not reply.

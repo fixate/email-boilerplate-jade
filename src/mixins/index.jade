@@ -1,0 +1,51 @@
+mixin button(href)
+  a(
+    href=href,
+    target='_blank',
+    style='\
+      border-radius: 5px;\
+      color: white;\
+      display: inline-block;\
+      font-weight: bold;\
+      text-decoration: none;\
+      background-color: #{colorPrimary};\
+      padding: .75em 2.5em;\
+      line-height: normal;\
+    '
+  )
+    block
+
+mixin image(src, alt, width, height)
+  img(
+    alt=alt,
+    class='image_fix',
+    height=height,
+    src=src,
+    width=width,
+  )
+
+mixin title()
+  h1(
+    style='\
+      font-size: 24px;\
+      letter-spacing: .015em;\
+      margin-bottom: 2em;\
+    '
+  )
+    block
+
+mixin link(href)
+  a(
+    href=href
+    style="font-size:12px;"
+    target='_blank'
+  )
+    block
+
+mixin smallText()
+  div(style="font-size:12px;")
+    block
+
+mixin smallerText()
+  div(style="font-size:9px;")
+    block
